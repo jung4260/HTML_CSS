@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        .abox {
+            text-align: right; /*박스정렬에도 적용됨*/
+            text-decoration: underline;
+        }
+
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        /* 문단 세로 정렬*/
+
+    .bbox img{
+        vertical-align: middle;
+    }
+    
+    /*문단을 세로에서 정 가운데로 보내야 하는데, 기준이 될 태그가 없는 경우?
+      높이와 줄간격을 동일하게 맞추면 됩니다.
+    */
+    .cbox{
+        height: 200px;
+        width: 500px;
+        line-height: 200px;
+        text-align: center;
+        border: 3px solid #9635;
+    }
+
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <p class="abox">
+        글자관련속성
+    </p>
+
+    <a href="#"> 밑줄 없애기 </a>
+
+    <p class="bbox"> 
+        안녕하세요?
+        <img src="img/css3.png" alt="이미지">
+    </p>
+
+    <p class="cbox">
+        문단 정가운데 정렬
+    </p>
+
+
+</body>
+</html>
