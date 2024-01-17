@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        ul, li {
+            list-style: none;
+        }
+        li{
+            display: inline-block;
+        }
+
+        .list{
+            background-color: black;
+            text-align: center;
+        }
+
+        .list > li > a {
+            display: block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .list> li> a:hover{
+            text-decoration: underline;
+            color: white;
+        }
+
+        .img{
+            height: 500px;
+            background-image: url(img/coupang01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .mid{
+            margin: 150px 100px 100px 100px;
+        }
+
+        .title{
+            display: block;
+            width: 110px;
+            height: 25px;
+            background-color: grey;
+            margin: 50px 0px 0px 0px;
+        }
+        .info{
+            padding: 20px 0px 30px 30px;
+            border: 1px solid #777;
+        }
+        .info > li {
+            display: block;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="head">
+        <ul class="list">
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+        </ul>
+    </div>
+
+    <div class="img"></div>
+
+    <div class="mid">
+        <h3 class="title">오늘의 발견</h3>
+        <div class="info">
+                <li>본문내용...</li>
+                <li>본문내용...</li>
+                <li>본문내용...</li>
+                <li>본문내용...</li>
+                <li>본문내용...</li>
+        </div>
+    </div>
+
+</body>
+</html>

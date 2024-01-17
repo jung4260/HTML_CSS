@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {padding: 0; margin: 0;}
+        ul, li, ol, dd, dl {list-style: none;}
+        img{max-width: 100%; height: auto;}
+
+        .nav {
+            background-color: black;
+            text-align: center;
+        }
+        .nav .gnb li {
+            display: inline-block;
+        }
+        .nav .gnb li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            box-sizing: border-box;
+        }
+        .nav .gnb li a:hover{
+            border-bottom: 3px solid rgb(255, 255, 255);
+        }
+
+        .top {
+            width: 800px; margin: 0 auto;
+            margin-top: 50px;
+        }
+        .content{
+            padding: 20px 30px;
+            border: 2px solid #777;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <header class="nav">
+        <ul class="gnb">
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">메뉴</a></li>
+        </ul>
+    </header>
+
+    <article>
+        <img src="img/coupang01.jpg" alt="슬라이드">
+    </article>
+
+    <section>
+        <div class="top">
+            <h3 class="title">오늘의 발견</h3>
+            <div class="content">
+                본문내용..<br>
+                본문내용..<br>
+                본문내용..<br>
+                본문내용..<br>
+                본문내용..<br>
+                본문내용..<br>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
