@@ -18,18 +18,24 @@
         .items{background-color: white; height: 200px; text-align: center; display: block;}
         .items .item {display: inline-block; padding:0 20px;}
 
-        .sticky{position:sticky; background-color: white; text-align: center; padding: 10px; top:0;} 
+        .sticky{position:sticky; z-index: 30; background-color: white; text-align: center; padding: 10px; top:0;} 
 
-        .ipad{text-align: center; }
-        .content{}
-        
+        section{
+            width:700px;
+            margin: 0 auto;
+            position:relative;
+        }
+        section .left{position:absolute; top:0; left:-222px;}
+        section .left img{display:block;}
+        section .right{position:absolute; top:0; right:-222px;}
+        section .right img{display: block;}
     </style>
 
 </head>
 <body>
     <div class="title" style="padding:30px;"><img src="/숙제/images/logo.jpg" alt=""></div>
 
-    <a href="#" style="height:50px; width:50px; background-color: rgb(124, 22, 22); line-height:50px; position:fixed; top:30px; right:30px; z-index: 20; text-decoration: none; color:white">TOP</a>
+    <a href="#" style="height:50px; width:50px; background-color: rgb(124, 22, 22); text-align: center; line-height:50px; position:fixed; top:30px; right:30px; z-index: 20; text-decoration: none; color:white">TOP</a>
 
     <div class="menu">
         <ul class="u-list">
@@ -60,28 +66,22 @@
     </div>
 
     <div class="sticky">
-        
         아이콘   아이콘   아이콘   이거는 스티키
     </div>
 
-    <section class="content">
-
-        <div class="ipad">
-            <img src="/숙제/images/side01.png" alt=""style="text-align:left">
-            <img src="/숙제/images/side02.png" alt=""style="text-align:left">
+    <section>
+        <div class="content">
             <img src="/숙제/images/ipad.jpg" alt="">
-            <img src="/숙제/images/side03.png" alt="" style="text-align:right">
-            <img src="/숙제/images/side04.png" alt="" style="text-align: right;">
-            
         </div>
-
-        <aside>
-            
-            <br>
-            <br>
-            
-        </aside>
-        
+            <div class="left">
+                <img src="/숙제/images/side01.png" alt=""style="text-align:left"> <br>
+                <img src="/숙제/images/side02.png" alt=""style="text-align:left">
+            </div>
+            <div class="right">
+                <img src="/숙제/images/side03.png" alt="" style="text-align:right"> <br>
+                <img src="/숙제/images/side04.png" alt="" style="text-align: right;">
+            </div>
+        </div>
     </section>
 
 

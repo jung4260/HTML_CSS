@@ -1,0 +1,79 @@
+* {padding:0; margin:0;}
+ul, li, ol, dd, dl {list-style: none;}
+
+body{
+    background-image: url(images/bg.png);
+}
+
+header .logo {
+    text-align: center;
+    margin: 10px 0;
+}
+
+header .gnb {
+    background-color: black;
+    text-align: center;
+}
+
+header .gnb li {display: inline-block;}
+header .gnb li a {display: block; text-decoration: none; color: white; padding: 20px; font-size: 15px;}
+
+header .gnb li a:hover {background-color: rgb(145, 145, 145); transition: 0.3s; border:1px solid  aquamarine} 
+
+header .top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: red;
+    line-height: 50px;
+    right: 30px;
+    top: 30px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+
+.slider {
+    background-color: white;
+}
+.slider ul {width: 960px; margin: 0 auto; overflow: hidden;}
+.slider ul li {float: left; width: 25%;}
+.slider ul li span {display: block;}
+
+
+.menu {
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu ul li {display: inline-block;}
+
+.menu ul li a {display: block; 
+    color:black; 
+    text-decoration: none; 
+    padding: 10px 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.menu ul li a:hover {
+    background-color: bisque;
+}
+
+
+
+
+
+
+section{
+    width:700px;
+    margin: 0 auto;
+    position:relative;
+}
+section .left{position:absolute; top:0; left:-222px;}
+section .left img{display:block;}
+section .right{position:absolute; top:0; right:-222px;}
+section .right img{display: block;}
