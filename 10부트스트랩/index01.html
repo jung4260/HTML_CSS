@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 부트스트랩 css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- 제이쿼리가 먼저 부트스트랩보다 불려와야 됩니다.-->
+    <script src="js/jquery.js"></script>
+    <!-- 부트스트랩 js -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        hr {
+            border: 2px solid red;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+    </table>
+
+
+    <!--전체 12칸, 
+        container or container-fluid 아래에 
+        row 아래에 
+        col-*-* 클래스 넣는다. -->
+
+        <div class="container-fluid">
+
+            <h3>부트스트랩 그리드</h3>
+
+            <!-- 테블릿 이상에서는 4칸, 모바일 환경에서 2칸 -->
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">내용</div>
+                <div class="col-sm-3 col-xs-6">내용</div>
+                <div class="col-sm-3 col-xs-6">내용</div>
+                <div class="col-sm-3 col-xs-6">내용</div>
+            </div>
+
+            <hr>
+            <hr>
+
+            <!-- 웹환경에서는 4칸, 테블릿에서 3칸, 모바일에서 1칸 -->
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+                <div class="col-md-3 col-sm-4 col-xs-12">내용</div>
+            </div>
+
+            <hr>
+            <hr>
+
+            <ul class="row">
+                <li class="col-md-2 col-sm-3 col-xs-6"><a href="#">내용</a></li>
+                <li class="col-md-2 col-sm-3 col-xs-6"><a href="#">내용</a></li>
+                <li class="col-md-2 col-sm-3 col-xs-6"><a href="#">내용</a></li>
+                <li class="col-md-2 col-sm-3 col-xs-6"><a href="#">내용</a></li>
+                <li class="col-md-2 col-sm-3 col-xs-6"><a href="#">내용</a></li>
+                <li class="col-md-2 col-sm-3 col-xs-6"><a href="#">내용</a></li>
+            </ul>
+
+
+
+        </div>
+
+        <hr>
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-xs-12" style="background-color: yellow;">
+                    <div class="col-md-4 col-xs-12">내용</div>
+                    <div class="col-md-4 col-xs-12">내용</div>
+                    <div class="col-md-4 col-xs-12">내용</div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-xs-12" style="background-color: rgb(167, 127, 127);">
+                    <div class="col-md-4 col-xs-12">내용</div>
+                    <div class="col-md-4 col-xs-12">내용</div>
+                    <div class="col-md-4 col-xs-12">내용</div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>
