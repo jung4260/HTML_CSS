@@ -1,0 +1,53 @@
+* {padding:0; margin:0;}
+ul, li, ol, dd, dl {list-style: none;}
+img {max-width: 100%; height: auto;}
+
+hr {border: 1px solid red}
+
+#section .delivery {min-height: 300px;}
+
+#section .container .row .payment {margin-top: 60px;}
+#section .container .row .payment .info {overflow: hidden;}
+#section .container .row .payment .info .left {float: left; font-size: 18px;}
+#section .container .row .payment .info .right {float: right; font-size: 30px;}
+
+#section .container .row .buttons .button{overflow: hidden; margin-top: 3px;}
+#section .container .row .buttons .button .btn{float: left; height: 50px; width: 50%; font-size: 18px; border-radius: 0;}
+
+
+#footer .reply {border:1px solid red; margin-top: 50px; position:relative;}
+#footer .reply .profile-img {position:absolute; top:10px;}
+
+#footer .reply .form-group > textarea{max-width: auto; resize: vertical;}
+
+#footer .user {overflow: hidden;}
+#footer .user .btn {float: right; border-radius: 0;}
+#footer .user .form-group {float: left; border-radius: 0;}
+
+
+/*====================탭 디자인===================*/
+
+.mytab > li {
+   width: 25%;
+   text-align: center;
+}
+
+.mytab > li > a {
+    color:#000;
+    border: 1px solid #e3e3e3;
+    margin:0;
+    border-radius: 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {color: rgb(18, 109, 161); transition: 1s; background-color: rgb(142, 184, 170);}
+
+
+
+
+
+
+
+
+
